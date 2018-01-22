@@ -1,0 +1,60 @@
+.welcome{
+    position: relative;
+    height: 100vh;
+    text-align: center; 
+    width: 100%; 
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.body{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.message{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-dim{
+    width: 75px;
+    height: 75px;
+}
+
+.box-border{
+    border: 3px solid gold;
+    padding: 5px;
+    height: 100vh;
+}
+
+.education{
+    margin: auto;
+}
+
+.content{
+    margin: auto;
+    padding: 0px;
+}
+
+.accordion-style{
+    /*padding: 2px;*/
+    width: 100%;
+}
+
+.chart-div{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
