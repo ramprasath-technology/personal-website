@@ -3,6 +3,7 @@
     height: 100vh;
     text-align: center; 
     width: 100%; 
+    padding-top: 10vh;
 }
 
 .container-fluid{
@@ -10,6 +11,11 @@
 }
 
 .body{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.align-word{
     word-break: break-all;
     word-wrap: break-word;
 }
@@ -22,6 +28,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.scroll-button{
+    top: 60%;
+    position: relative;
 }
 
 .img-dim{
@@ -37,6 +48,11 @@
 
 .education{
     margin: auto;
+    padding-top: 10vh;
+}
+
+.skills{
+    padding-top: 10vh;
 }
 
 .content{
@@ -49,10 +65,78 @@
     width: 100%;
 }
 
-.chart-div{
+.progress-div{
     width: 90%;
     margin: auto;
 }
+
+.icon-dim{
+    width: 25px;
+    height: 25px;
+}
+
+.certificate-div{
+    text-align: center;
+    margin: auto;
+}
+
+.recommendations-div{
+    margin: auto;
+    max-width: 100%;    
+}
+
+.recommendations{
+    padding-top: 10vh;
+}
+
+.element-width{
+    width: 100%
+}
+
+.certifications{
+    width: 100%;
+    padding-top: 10vh;
+}
+
+
+.profile-img{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.card{
+    width: 98%;
+    margin: auto;
+}
+
+.progress{
+    width: 98%;
+    margin: auto;
+}
+
+.mouse-pointer{
+    cursor: pointer;
+}
+
+.navbar{
+    /*height: 10vh;*/
+}
+
+.navbar-collapse{
+    /*width: 100%;*/
+}
+
+
+
+
 
 
 

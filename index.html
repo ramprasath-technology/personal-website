@@ -6,21 +6,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/main.css" />
 </head>
 
 <body>
+   
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand">Ramprasath Babu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item " data-toggle="collapse" data-target="#navbarNav">
+                    <a class="nav-link" href="#education">Education <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
+                    <a class="nav-link" href="#certifications">Certifications</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
+                    <a class="nav-link" href="#recommendations">Testimonials</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 
     <section id="welcome" class="welcome ">
         <div id="message" class="message">
         </div>
-        <div>
-            <a href="#education" class="page-scroll">></a>
+        <div class="scroll-button">
+             <a href="#education"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
         </div>
     </section>
-    <br/>
-    <br/>
-    <hr/>
+
     <section id="education" name="education" class="education">
 
         <h1 class="display-4">Education and Career</h1>
@@ -163,7 +187,7 @@
                             <ul class="list-group list-group-flush">
 
                                 <li class="list-group-item">
-                                    Designed, developed, tested and supported web based product providing asset verification service to hedge fund managers
+                                    Designed, developed, tested and supported web based product providing asset verification service for hedge fund managers
                                 </li>
                                 <li class="list-group-item">
                                     Led team efforts in adopting latest technology stack comprising of RESTful services, AngularJS, and Bootstrap, resulting
@@ -263,30 +287,264 @@
                 </div>
             </div>
     </section>
-    <br/>
-    <br/>
-    <hr/>
-    <br/>
-    <section>
-        <h1 class="display-4">Education and Career</h1>
+
+    <section id="skills" class="skills">
+        <h1 class="display-4">Skills</h1>
         <p class="lead">
-            My education qualifications and work experience so far. Click on each heading to know more.
+            Skills that I've developed through my professional experience and coursework
         </p>
-        <div id="chart_div" class="chart-div">
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Core Java
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                C#
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                HTML5
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                JavaScript (ES5)
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-active" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                CSS3
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                ES6
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                AngularJS
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Angular 2+
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                React
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Bootstrap
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Flexbox
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                ASP.NET WebAPI
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Entity Framework
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Spring Boot
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Hibernate
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Microsoft SQL Server
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                MySQL
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                MongoDB
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                MongoDB
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 78%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Git
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 78%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Github
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Bitbucket
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Stash
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                JIRA
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                TeamCity
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                Zeplin
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                MS Office Suite
+            </div>
+        </div>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30">
+                MS Visio
+            </div>
         </div>
     </section>
-    
-    
-    
-    
-        <!--<h4 class="center-text"> Experience Level of UI Skills </h4>
-    <div id="ui_chart_div">
-    </div>
-        <h4 class="center-text"> Experience Level of Server-Side Skills </h4>
-        <div id="server_chart_div">
-    </div>-->
-    
-    
+
+    <section class="certifications" id="certifications">
+        <h1 class="display-4">Certifications</h1>
+        <p class="lead">
+            The major certifications I've achieved so far
+        </p>
+        <div class="certificate-div col-xs-12 col-md-10 col-lg-6">
+            <ul class="list-group">
+                <li class="list-group-item" id="cert_1">Mobile Sites Certification, Google</li>
+                <li class="list-group-item" id="cert_2">Software Developer Level 1 Certification, Accenture</li>
+                <li class="list-group-item" id="cert_3">Computer Foundations Program Certificate, Infosys</li>
+                <li class="list-group-item" id="cert_4">Business English Certificate (Vantage), University of Cambridge</li>
+                <li class="list-group-item" id="cert_5">Financial Markets Level 1 Certification, BNY Mellon</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="recommendations" id="recommendations">
+        <h1 class="display-4">Testimonies</h1>
+        <p class="lead">
+            Some words from people I've worked with
+        </p>
+        <div class="recommendations-div">
+            <!--<div class="row">-->
+
+            <div class="card card-border">
+                <img class="card-img-top  profile-img rounded" src="./images/brad.jpg" alt="Brad Dufour">
+                <div class="card-block">
+                    <h4 class="card-title text-center">Brad Dufour</h4>
+                    <h6 class="card-title text-center">Information Systems Manager, Nationwide Childern's Hospital</h6>
+                    <h6 class="text-center"> <a class="card-title" target="_blank" href="https://www.linkedin.com/in/ramprasathbabu"><i class="fa fa-linkedin" aria-hidden="true"></i></a>                        </h6>
+                    <p class="card-text"><q>I worked with Ram when he was an intern at DSW during the Summer of 2017. Technically, Ram is extremely sound. However, what impressed me most about Ram was his ability to take all tasks in stride and not become overwhelmed by anything. He never got frustrated when he ran into an issue and would take the appropriate steps to troubleshoot on his own before asking a senior developer for help. To me, this internal drive is one of Ram's best qualities. Ram was also not afraid to offer ideas and recommend solutions to problems even though he was only interning and didn't have as much contextual experience as others in the group. This confidence, coupled with his internal drive, will make him a good fit in any software group he finds himself.</q>                        -
+                        <time>August 12, 2017</time>
+                    </p>
+                </div>
+            </div>
+            <hr/>
+            <div class="card card-border">
+                <img class="card-img-top  profile-img rounded" src="./images/matt.jpg" alt="Matthew Metzger">
+                <div class="card-block">
+                    <h4 class="card-title text-center">Matthew Metzger</h4>
+                    <h6 class="card-title text-center">Lead UI Engineer, DSW Digital</h6>
+                    <h6 class="text-center"> <a class="card-title" target="_blank" href="https://www.linkedin.com/in/ramprasathbabu"><i class="fa fa-linkedin" aria-hidden="true"></i></a>                        </h6>
+                    <p class="card-text"><q>I had the good fortune of working with Ram while he was a visiting software engineering intern this past summer. He is a bright and charming technician with excellent communication skills a strong work ethic. We tasked him with many unique responsibilities, some which he had no immediate familiarity. Ram promptly developed an understanding of the business case and quickly absorbed the technical tools & programming languages. His approach was focused and methodical without being rigid and creative while remaining cognizant of the constraints of the project. It was truly a pleasure working with him and I would do so again.</q>                        -
+                        <time>October 18, 2017</time>
+                    </p>
+                </div>
+            </div>
+            <hr/>
+            <div class="card card-border">
+                <img class="card-img-top  profile-img rounded" src="./images/stephen.jpg" alt="Stephen Joseph">
+                <div class="card-block">
+                    <h4 class="card-title text-center">Stephen Joseph</h4>
+                    <h6 class="card-title text-center">Project Lead, BNY Mellon</h6>
+                    <h6 class="text-center"> <a class="card-title" target="_blank" href="https://www.linkedin.com/in/ramprasathbabu"><i class="fa fa-linkedin" aria-hidden="true"></i></a>                        </h6>
+                    <p class="card-text"><q>Ramprasath was an application developer in my team for two years. Throughout this time, I found Ramprasath to be a CLASSY, PASSIONATE, CLEVER AND TACTICALLY BRILLIANT developer and an excellent team player, with strong business acumen. He was always eager to know more and was quick at learning new technologies. He developed many critical components for the Asset Verification product. He was responsible for developing a majority of UI modules using AngularJS and Bootstrap. I wish him best of luck for his graduate studies and future career.</q>                        -
+                        <time>August 10, 2017</time>
+                    </p>
+                </div>
+            </div>
+            <hr/>
+            <div class="card card-border">
+                <img class="card-img-top  profile-img rounded" src="./images/manoj.jpg" alt="Manoj Prasad">
+                <div class="card-block">
+                    <h4 class="card-title text-center">Manoj Prasad</h4>
+                    <h6 class="card-title text-center">Development Manager, BNY Mellon</h6>
+                    <h6 class="text-center"> <a class="card-title" target="_blank" href="https://www.linkedin.com/in/ramprasathbabu"><i class="fa fa-linkedin" aria-hidden="true"></i></a>                        </h6>
+                    <p class="card-text"><q>I got Ram recruited from college for a position at iNautix as a trainee developer. Within 3 months he rapidly graduated to full time developer. In fact he was part the development of a new product -BNY Mellon Asset Verification along with few other developers. He was instrumental in completion and development of the product. In spite of being the most junior member of the team, he played the role of a Technical Lead by sheer knowledge of AngularJS,Good analytical and programming skills. His performance was on par with the senior members having 7 years of experience. He outperformed in his role as a developer/programmer. In addition to his excellent programming skills, he has excellent written and communication skills. I know he has been very actively blogging on various topics including current affairs, politics since 2015 with substantial followers. He helped me in creating content during team cultural event. I admire Rams ability to quickly learn and get the job done. I loved working with Ram for a period of around 2 years and know he will succeed in his future endeavours.</q>                        -
+                        <time>September 17, 2017</time>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <br/>
+    <br/>
+
+
+
+
+
+
 
 
 
@@ -299,7 +557,6 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="./scripts/about.js"></script>
-    <script src="./scripts/google-charts.js"></script>
 </body>
 
 </html>
