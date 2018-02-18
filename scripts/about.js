@@ -7,11 +7,7 @@ var certInterval;
 var gradients = ["linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%)",
                  "linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%)",
                  "linear-gradient(to top right, #33ccff 0%, #ff99cc 100%)",
-                 "linear-gradient(to top left, #33ccff 0%, #ff99cc 100%)"];
-
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})                 
+                 "linear-gradient(to top left, #33ccff 0%, #ff99cc 100%)"];              
 
 window.onload = function(){
     initialize();
