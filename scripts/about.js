@@ -20,6 +20,15 @@ function initialize(){
     certInterval = setInterval(setCertColor, 1000);
 }
 
+function reload(){
+    clearInterval(interval);
+    clearInterval(certInterval);
+    counter = 0;
+    certPointer = 1;
+    textToShow = "";
+    initialize();
+}
+
 function setCertColor(){
     var prevPointer;
 
