@@ -1,4 +1,4 @@
-var welcomeMessage = "Welcome! I'm Ram and I'm glad to host host you here. Play around to know more about me. Scroll down.";
+var welcomeMessage = "Welcome! I'm Ram and I'm glad to host you here. Play around to know more about me. Scroll down.";
 var textToShow = "";
 var counter = 0;  
 var certPointer = 1;
@@ -18,7 +18,9 @@ window.onload = function(){
 }
 
 function initialize(){ 
-    interval = setInterval(setText,100);
+    document.getElementById("spinner").style.display = "none";
+    document.getElementById("welcome").style.display = "block";
+    interval = setInterval(setText,150);
     certInterval = setInterval(setCertColor, 1000);
 }
 

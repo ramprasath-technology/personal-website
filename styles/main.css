@@ -1,3 +1,7 @@
+#welcome{
+    display: none;
+}
+
 .welcome{
     position: relative;
     height: 100vh;
@@ -6,6 +10,13 @@
     padding-top: 10vh;
 }
 
+.spinner{
+    position: relative;
+    height: 100vh;
+    text-align: center; 
+    width: 100%; 
+    padding-top: 50vh;
+}
 .container-fluid{
     padding: 0;
 }
@@ -100,11 +111,13 @@
 
 
 .profile-img{
-    height: 150px;
-    width: 150px;
+    /*height: 150px;
+    width: 150px;*/
     margin: auto;
     padding-top: 20px;
     padding-bottom: 5px;
+    max-width: 25%;
+    height: auto;
 }
 
 
@@ -132,6 +145,46 @@
 
 .navbar-collapse{
     /*width: 100%;*/
+}
+
+.portfolio-div{
+margin:auto;
+text-align: center;
+}
+
+.portfolio-img{
+    /*margin: auto;
+    
+    height: 50vh;*/
+    max-width: 98%;
+    height: auto;
+    border: 1px solid gray;
+}
+
+.portfolio{
+    width: 100%;
+    padding-top: 10vh;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.contact{
+    padding-top: 10vh;
+    width: 100%
+}
+
+.contact-div{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.footer{
+    padding-top: 30vh;
+    text-align: center;
+    width: 100%;
 }
 
 
