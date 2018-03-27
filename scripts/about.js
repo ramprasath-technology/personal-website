@@ -1,4 +1,4 @@
-var welcomeMessage = "Welcome! I'm Ram and I'm glad to host you here. Play around to know more about me. Scroll down.";
+var welcomeMessage = "Howdy! I'm Ram and I'm glad to host you here. Play around to know more about me. Scroll down.";
 var textToShow = "";
 var counter = 0;  
 var certPointer = 1;
